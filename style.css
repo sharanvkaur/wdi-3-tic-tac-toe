@@ -1,0 +1,40 @@
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+button {
+  width: 200px;
+  display: block;
+  margin: 10px auto 20px auto;
+}
+
+.gameboard {
+  width: 60%;
+  margin: 0 auto;
+}
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.spots {
+  background-color: grey;
+  border: 1px solid;
+  width: 25%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.player1chosen {
+  background-color: red;
+}
+
+.player2chosen {
+  background-color: blue;
+}
